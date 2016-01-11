@@ -38,3 +38,9 @@ Puppet class to manage/configure CSF
     csf::tcp { 'out':
         ports => [ '80' ,'443' ],
     }
+
+#### Set a LFD option.
+
+    csf:lf { 'smtpauth':
+        value => '50',
+    }
