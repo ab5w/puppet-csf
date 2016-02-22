@@ -41,6 +41,6 @@ Puppet class to manage/configure CSF
 
 #### Set a LFD option.
 
-    csf:lf { 'smtpauth':
+    csf::lf { 'smtpauth':
         value => '50',
     }
